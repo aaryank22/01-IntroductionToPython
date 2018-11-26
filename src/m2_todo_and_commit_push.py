@@ -16,7 +16,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# DONE 1.
+# DONE: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window
@@ -71,7 +71,7 @@ print('Hello, World')
 print('LucAS')
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add yet another   print   statement, putting it below this comment.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -86,7 +86,7 @@ print('LucAS')
 print(3607*34227)
 ###############################################################################
 #
-# TODO: 5.
+# DONE 5.
 #   Look at the list of files in the Project window (to the left).
 #   Note that this file:
 #      m2_todo_and_commit_push.py
