@@ -47,11 +47,10 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 popeye = rg.SimpleTurtle('arrow')
 popeye.pen = rg.Pen('blue', 10)
+popeye.right(270)
 popeye.forward(200)
 popeye.pen_up()
-popeye.forward(100)
-popeye.right(-90);
-popeye.forward(40)
+popeye.go_to(rg.Point(100, -40))
 popeye.pen_down()
 popeye.pen = rg.Pen('Green',10)
 popeye.backward(150)
