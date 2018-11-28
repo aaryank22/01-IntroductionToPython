@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -37,9 +37,22 @@ aaryan.speed=30
 
 size=200
 
-for k in range(100):
+for k in range(10):
     aaryan.draw_regular_polygon(8,15)
     aaryan.backward(50)
     aaryan.forward(77)
     aaryan.left(69)
     aaryan.right(22)
+
+alec = rg.SimpleTurtle('turtle')
+alec.Pen = rg.Pen('blue', 30)
+alec.speed=100
+
+size=1000
+
+for k in range(30):
+     alec.draw_square(3)
+     alec.left(33)
+     alec.right(44)
+     alec.forward(35)
+     alec.backward(30)
